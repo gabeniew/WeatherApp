@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Search Icon in the Toolbar -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <!-- Refresh Icon in the Toolbar -->
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="Search"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <!-- Settings Icon in the Toolbar -->
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom" />
+</menu>

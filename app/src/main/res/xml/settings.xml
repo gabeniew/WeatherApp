@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Dark Mode Switch -->
+    <SwitchPreferenceCompat
+        android:key="dark_mode"
+        android:title="Enable Dark Mode"
+        android:defaultValue="false"
+        android:summary="Toggle dark mode for the app" />
+
+    <!-- Celsius/Fahrenheit Switch -->
+    <SwitchPreferenceCompat
+        android:key="temperature_unit"
+        android:title="Temperature Unit"
+        android:defaultValue="true"
+        android:summary="Use Celsius" />
+
+</PreferenceScreen>

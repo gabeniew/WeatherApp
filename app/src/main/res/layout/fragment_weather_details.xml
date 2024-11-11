@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/colorBackground">
+
+    <!-- Sunrise Time -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunrise"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/sunriseTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="06:30 AM"
+        android:textSize="14sp"
+        android:paddingBottom="16dp"/>
+
+    <!-- Sunset Time -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunset"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/sunsetTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="07:45 PM"
+        android:textSize="14sp"
+        android:paddingBottom="16dp"/>
+
+    <!-- Weather Description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/weatherDescriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear sky"
+        android:textSize="14sp"
+        android:paddingBottom="16dp"/>
+
+    <!-- Pressure -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pressure"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/pressureText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1015 hPa"
+        android:textSize="14sp"
+        android:paddingBottom="16dp"/>
+
+    <!-- Visibility -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visibility"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/visibilityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10000 m"
+        android:textSize="14sp"
+        android:paddingBottom="16dp"/>
+</LinearLayout>
